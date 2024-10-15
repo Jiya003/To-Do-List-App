@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to_do_list"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="@android:dimen/app_icon_size"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input"
+        android:hint="@string/add_your_task"
+        android:layout_margin="@android:dimen/app_icon_size"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:text="@string/add"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:backgroundTint="@color/teal_200"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkedTextView"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:text="@string/checked_tasks"/>
+</LinearLayout>
